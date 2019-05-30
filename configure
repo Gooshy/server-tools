@@ -1,5 +1,5 @@
 #!/bin/bash
 export CURRENT_DIR=`pwd`
-cat "export PATH=$PATH:$CURRENT_DIR >> ~/.bashrc"
+echo "export PATH=$PATH:$CURRENT_DIR >> ~/.bashrc"
 source ~/.bashrc
  
